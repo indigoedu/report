@@ -619,7 +619,7 @@ function loadSchoolDetail() {
         </div>
         <div class="metric-card">
             <div class="metric-value">${school.growthRate}</div>
-            <div class="metric-label">Büyüme Oranı</div>
+            <div class="metric-label">Жылдык өсүү пайызы</div>
         </div>
         <div class="metric-card">
             <div class="metric-value">${school.reportPeriod}</div>
