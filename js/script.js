@@ -11,7 +11,7 @@ const schoolsData = {
         newStudents: 79,
         leftStudents: 13,
         discountRate: "8%",
-        totalFee: "000 сом",
+        contractAverage: "3 888 $",
         growthRate: "7,19%",
         reportPeriod: "Июль 2025",
         classes: [
@@ -189,7 +189,7 @@ const schoolsData = {
         newStudents: 44,
         leftStudents: 4,
         discountRate: "17,97%",
-        totalFee: "000 coм",
+        contractAverage: "4 511 $",
         growthRate: "78.43%",
         reportPeriod: "Июль 2025",
         classes: [
@@ -279,7 +279,7 @@ const schoolsData = {
         newStudents: 20,
         leftStudents: 0,
         discountRate: "8%",
-        totalFee: "000 сом",
+        contractAverage: "1 006 $",
         growthRate: "100%",
         reportPeriod: "Июль 2025",
         classes: [
@@ -353,7 +353,7 @@ const schoolsData = {
         newStudents: 15,
         leftStudents: 0,
         discountRate: "5%",
-        totalFee: "000 сом",
+        contractAverage: "4 494 $",
         growthRate: "100%",
         reportPeriod: "Июль 2025",
         classes: [
@@ -614,8 +614,8 @@ function loadSchoolDetail() {
             <div class="metric-label">Скидок</div>
         </div>
         <div class="metric-card">
-            <div class="metric-value">${school.totalFee}</div>
-            <div class="metric-label">Toplam Ücret</div>
+            <div class="metric-value">${school.contractAverage}</div>
+            <div class="metric-label">Орточо Көрсөткүч</div>
         </div>
         <div class="metric-card">
             <div class="metric-value">${school.growthRate}</div>
