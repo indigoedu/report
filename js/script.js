@@ -611,7 +611,7 @@ function loadSchoolDetail() {
         </div>
         <div class="metric-card">
             <div class="metric-value">${school.discountRate}</div>
-            <div class="metric-label">Скидок</div>
+            <div class="metric-label">Арзандатуу пайызы </div>
         </div>
         <div class="metric-card">
             <div class="metric-value">${school.contractAverage}</div>
@@ -623,7 +623,7 @@ function loadSchoolDetail() {
         </div>
         <div class="metric-card">
             <div class="metric-value">${school.reportPeriod}</div>
-            <div class="metric-label">Отчет мезгили</div>
+            <div class="metric-label">Эсеп берүү мезгили</div>
         </div>
     `;
     
