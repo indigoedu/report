@@ -5,23 +5,23 @@ const schoolsData = {
         id: "SCH-001",
         name: "Indigo Sapat Primary",
         logo: "assets/logos/spt.png",
-        totalStudents: 358,
+        totalStudents: 367,
         previousYearStudents: 334,
-        renewed: 242,
-        newStudents: 79,
+        renewed: 276,
+        newStudents: 91,
         leftStudents: 13,
         discountRate: "8%",
         contractAverage: "3 888 $",
-        growthRate: "7,19%",
+        growthRate: "9.9%",
         reportPeriod: "Июль 2025",
         classes: [
             {
                 name: "1-А Классы",
                 capacity: 24,
-                enrolled: 10,
+                enrolled: 11,
                 preRegistration: 3,
-                available: 11,
-                occupancy: "54%"
+                available: 10,
+                occupancy: "62%"
             },
             {
                 name: "2-А Классы",
@@ -50,10 +50,10 @@ const schoolsData = {
             {
                 name: "2-Г Классы",
                 capacity: 24,
-                enrolled: 11,
+                enrolled: 12,
                 preRegistration: 0,
-                available: 13,
-                occupancy: "46%"
+                available: 12,
+                occupancy: "50%"
             },
             {
                 name: "2-Д Классы",
@@ -66,57 +66,57 @@ const schoolsData = {
             {
                 name: "2-Е Классы",
                 capacity: 24,
-                enrolled: 12,
+                enrolled: 13,
                 preRegistration: 4,
-                available: 8,
-                occupancy: "67%"
+                available: 7,
+                occupancy: "75%"
             },
             {
                 name: "3-А Классы",
                 capacity: 24,
-                enrolled: 3,
+                enrolled: 4,
                 preRegistration: 7,
-                available: 14,
-                occupancy: "25%"
+                available: 13,
+                occupancy: "33%"
             },
             {
                 name: "3-Б Классы",
                 capacity: 24,
                 enrolled: 15,
-                preRegistration: 4,
-                available: 5,
-                occupancy: "79%"
+                preRegistration: 5,
+                available: 4,
+                occupancy: "83%"
             },
             {
                 name: "3-В Классы",
                 capacity: 24,
                 enrolled: 8,
-                preRegistration: 10,
-                available: 6,
-                occupancy: " 75%"
+                preRegistration: 7,
+                available: 9,
+                occupancy: "62%"
             },
             {
                 name: "4-А Классы",
                 capacity: 24,
-                enrolled: 17,
+                enrolled: 18,
                 preRegistration: 5,
-                available: 2,
+                available: 1,
                 occupancy: "92%"
             },
             {
                 name: "4-Б Классы",
                 capacity: 24,
-                enrolled: 10,
-                preRegistration: 10,
+                enrolled: 11,
+                preRegistration: 9,
                 available: 4,
-                occupancy: "75%"
+                occupancy: "83%"
             },
             {
                 name: "4-В Классы",
                 capacity: 24,
                 enrolled: 16,
-                preRegistration: 3,
-                available: 5,
+                preRegistration: 4,
+                available: 4,
                 occupancy: "83%"
             },
             {
@@ -131,9 +131,9 @@ const schoolsData = {
                 name: "5-А Классы",
                 capacity: 24,
                 enrolled: 15,
-                preRegistration: 4,
-                available: 5,
-                occupancy: "79%"
+                preRegistration: 6,
+                available: 3,
+                occupancy: "88%"
             },
             {
                 name: "5-Б Классы",
@@ -154,9 +154,9 @@ const schoolsData = {
             {
                 name: "6-А Классы",
                 capacity: 24,
-                enrolled: 11,
+                enrolled: 12,
                 preRegistration: 11,
-                available: 2,
+                available: 1,
                 occupancy: "75%"
             },
             {
@@ -169,14 +169,12 @@ const schoolsData = {
             }
         ],
         notes: [
-            "Yeni kayıtların %30'u erken kayıt kampanyasından",
-            "2 öğrenci burslu kayıt yaptırdı"
+            ""
         ],
         goals: [
-            "Nisan ayı için 20 yeni kayıt hedefi",
-            "İndirim oranını %8'e düşürme"
+            "The school's total student count must exceed 380 by August 30th."
         ],
-        lastUpdate: "22.07.2025"
+        lastUpdate: "30.07.2025"
     },
     // Indigo Asylkech Girls School
     "SCH-002": {
