@@ -11,7 +11,7 @@ const schoolsData = {
         newStudents: 91,
         leftStudents: 13,
         discountRate: "8%",
-        contractAverage: "3 888 $",
+        contractAverage: "3 852 $",
         growthRate: "9.9%",
         reportPeriod: "Июль 2025",
         classes: [
@@ -181,14 +181,14 @@ const schoolsData = {
         id: "SCH-002",
         name: "Indigo Asylkech Girls",
         logo: "assets/logos/asylkech.png",
-        totalStudents: 91,
+        totalStudents: 90,
         previousYearStudents: 51,
-        renewed: 47,
-        newStudents: 44,
+        renewed: 35,
+        newStudents: 41,
         leftStudents: 4,
-        discountRate: "17,97%",
-        contractAverage: "4 511 $",
-        growthRate: "78.43%",
+        discountRate: "20%",
+        contractAverage: "4 426 $",
+        growthRate: "76.5%",
         reportPeriod: "Июль 2025",
         classes: [
             {
@@ -210,7 +210,7 @@ const schoolsData = {
             {
                 name: "Grade 6-B",
                 capacity: 18,
-                enrolled: 3,
+                enrolled: 2,
                 preRegistration: 0,
                 available: 15,
                 occupancy: "17%"
@@ -257,14 +257,12 @@ const schoolsData = {
             }
         ],
         notes: [
-            "Yeni kayıtların %40'ı referans yoluyla",
-            "3 öğrenci tam burslu"
+            "...."
         ],
         goals: [
-            "Nisan ayı için 25 yeni kayıt hedefi",
-            "İndirim oranını %10'a düşürme"
+            "The school's total student count must exceed 120 by August 30th."
         ],
-        lastUpdate: "23.07.2025"
+        lastUpdate: "29.07.2025"
     },
     // Indigo Sapat International School
     "SCH-003": {
@@ -274,10 +272,10 @@ const schoolsData = {
         totalStudents: 20,
         previousYearStudents: 0,
         renewed: 0,
-        newStudents: 20,
+        newStudents: 21,
         leftStudents: 0,
-        discountRate: "8%",
-        contractAverage: "1 006 $",
+        discountRate: "14,52%",
+        contractAverage: "3 877 $",
         growthRate: "100%",
         reportPeriod: "Июль 2025",
         classes: [
@@ -324,44 +322,42 @@ const schoolsData = {
             {
                 name: "Grade 11-Б",
                 capacity: 24,
-                enrolled: 2,
+                enrolled: 3,
                 preRegistration: 0,
-                available: 22,
-                occupancy: "8.3%"
+                available: 21,
+                occupancy: "12.5%"
             }
         ],
         notes: [
-            "Yeni kayıtların %25'i yurtdışından",
-            "5 öğrenci kısmi burslu"
+            "...."
         ],
         goals: [
-            "Nisan ayı için 15 yeni kayıt hedefi",
-            "İndirim oranını %7'ye düşürme"
+            "The school's total student count must exceed 150 by August 30th."
         ],
-        lastUpdate: "23.07.2025"
+        lastUpdate: "29.07.2025"
     },
     // Indigo Prime Academy
     "SCH-004": {
         id: "SCH-004",
         name: "Indigo Prime Academy",
         logo: "assets/logos/prime.png",
-        totalStudents: 15,
+        totalStudents: 16,
         previousYearStudents: 0,
         renewed: 0,
-        newStudents: 15,
+        newStudents: 16,
         leftStudents: 0,
         discountRate: "5%",
-        contractAverage: "4 494 $",
+        contractAverage: "4 501$",
         growthRate: "100%",
         reportPeriod: "Июль 2025",
         classes: [
             {
                 name: "Grade 7-A",
                 capacity: 16,
-                enrolled: 8,
+                enrolled: 9,
                 preRegistration: 1,
-                available: 7,
-                occupancy: "50%" 
+                available: 6,
+                occupancy: "56.25%" 
             },
             {
                 name: "Grade 8-А",
@@ -397,14 +393,12 @@ const schoolsData = {
             }
         ],
         notes: [
-            "Yeni kayıtların %15'i erken kayıt kampanyasından",
-            "1 öğrenci tam burslu"
+            "...."
         ],
         goals: [
-            "Nisan ayı için 10 yeni kayıt hedefi",
-            "İndirim oranını %4'e düşürme"
+            "The school's total student count must exceed 74 by August 30th."
         ],
-        lastUpdate: "23.07.2025"
+        lastUpdate: "29.07.2025"
     }
 };
 
