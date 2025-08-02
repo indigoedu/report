@@ -7,8 +7,8 @@ const schoolsData = {
         logo: "assets/logos/spt.png",
         totalStudents: 367,
         previousYearStudents: 334,
-        renewed: 276,
-        newStudents: 91,
+        renewed: 273,
+        newStudents: 94,
         leftStudents: 13,
         discountRate: "8%",
         contractAverage: "3 852 $",
@@ -18,10 +18,10 @@ const schoolsData = {
             {
                 name: "1-А Классы",
                 capacity: 24,
-                enrolled: 11,
+                enrolled: 12,
                 preRegistration: 3,
-                available: 10,
-                occupancy: "62%"
+                available: 9,
+                occupancy: "75%" 
             },
             {
                 name: "2-А Классы",
@@ -34,18 +34,18 @@ const schoolsData = {
             {
                 name: "2-Б Классы",
                 capacity: 24,
-                enrolled: 11,
-                preRegistration: 11,
+                enrolled: 12,
+                preRegistration: 10,
                 available: 2,
-                occupancy: "75%"
+                occupancy: "92%"
             },
             {
                 name: "2-В Классы",
                 capacity: 24,
-                enrolled: 16,
-                preRegistration: 8,
-                available: 0,
-                occupancy: "100%"
+                enrolled: 17,
+                preRegistration: 6,
+                available: 1,
+                occupancy: "92%"
             },
             {
                 name: "2-Г Классы",
@@ -69,7 +69,7 @@ const schoolsData = {
                 enrolled: 13,
                 preRegistration: 4,
                 available: 7,
-                occupancy: "75%"
+                occupancy: "81%"
             },
             {
                 name: "3-А Классы",
@@ -82,10 +82,10 @@ const schoolsData = {
             {
                 name: "3-Б Классы",
                 capacity: 24,
-                enrolled: 15,
+                enrolled: 16,
                 preRegistration: 5,
-                available: 4,
-                occupancy: "83%"
+                available: 3,
+                occupancy: "88%"
             },
             {
                 name: "3-В Классы",
@@ -163,9 +163,9 @@ const schoolsData = {
                 name: "6-Б Классы",
                 capacity: 24,
                 enrolled: 10,
-                preRegistration: 13,
-                available: 1,
-                occupancy: "71%"
+                preRegistration: 14,
+                available: 0,
+                occupancy: "62%"
             }
         ],
         notes: [
