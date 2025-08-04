@@ -7,8 +7,10 @@ const schoolsData = {
         logo: "assets/logos/spt.png",
         totalStudents: 367,
         previousYearStudents: 334,
-        renewed: 273,
-        newStudents: 94,
+        renewed: 167,
+        newStudents: 86,
+        preRegistration: 8,
+        notconfirmed: 98,
         leftStudents: 13,
         discountRate: "8%",
         contractAverage: "3 852 $",
@@ -20,6 +22,7 @@ const schoolsData = {
                 capacity: 24,
                 enrolled: 12,
                 preRegistration: 3,
+                notconfirmed: 0,
                 available: 9,
                 occupancy: "75%" 
             },
@@ -27,15 +30,17 @@ const schoolsData = {
                 name: "2-А Классы",
                 capacity: 24,
                 enrolled: 13,
-                preRegistration: 7,
-                available: 4,
+                preRegistration: 0,
+                notconfirmed: 5,
+                available: 6,
                 occupancy: "81%"
             },
             {
                 name: "2-Б Классы",
                 capacity: 24,
                 enrolled: 12,
-                preRegistration: 10,
+                preRegistration: 0,
+                notconfirmed: 10,
                 available: 2,
                 occupancy: "92%"
             },
@@ -43,7 +48,8 @@ const schoolsData = {
                 name: "2-В Классы",
                 capacity: 24,
                 enrolled: 17,
-                preRegistration: 6,
+                preRegistration: 0,
+                notconfirmed: 6,
                 available: 1,
                 occupancy: "92%"
             },
@@ -52,6 +58,7 @@ const schoolsData = {
                 capacity: 24,
                 enrolled: 12,
                 preRegistration: 0,
+                notconfirmed: 0,
                 available: 12,
                 occupancy: "50%"
             },
@@ -60,6 +67,7 @@ const schoolsData = {
                 capacity: 24,
                 enrolled: 24,
                 preRegistration: 0,
+                notconfirmed: 0,
                 available: 0,
                 occupancy: "100%"
             },
@@ -67,7 +75,8 @@ const schoolsData = {
                 name: "2-Е Классы",
                 capacity: 24,
                 enrolled: 13,
-                preRegistration: 4,
+                preRegistration: 0,
+                notconfirmed: 4,
                 available: 7,
                 occupancy: "81%"
             },
@@ -75,7 +84,8 @@ const schoolsData = {
                 name: "3-А Классы",
                 capacity: 24,
                 enrolled: 4,
-                preRegistration: 7,
+                preRegistration: 0,
+                notconfirmed: 7,
                 available: 13,
                 occupancy: "33%"
             },
@@ -83,7 +93,8 @@ const schoolsData = {
                 name: "3-Б Классы",
                 capacity: 24,
                 enrolled: 16,
-                preRegistration: 5,
+                preRegistration: 0,
+                notconfirmed: 5,
                 available: 3,
                 occupancy: "88%"
             },
@@ -91,7 +102,8 @@ const schoolsData = {
                 name: "3-В Классы",
                 capacity: 24,
                 enrolled: 8,
-                preRegistration: 7,
+                preRegistration: 0,
+                notconfirmed: 7,
                 available: 9,
                 occupancy: "62%"
             },
@@ -99,55 +111,62 @@ const schoolsData = {
                 name: "4-А Классы",
                 capacity: 24,
                 enrolled: 18,
-                preRegistration: 5,
-                available: 1,
+                preRegistration: 0,
+                notconfirmed: 4,
+                available: 2,
                 occupancy: "92%"
             },
             {
                 name: "4-Б Классы",
                 capacity: 24,
                 enrolled: 11,
-                preRegistration: 9,
-                available: 4,
-                occupancy: "83%"
+                preRegistration: 0,
+                notconfirmed: 8,
+                available: 5,
+                occupancy: "79%"
             },
             {
                 name: "4-В Классы",
                 capacity: 24,
                 enrolled: 16,
-                preRegistration: 4,
-                available: 4,
-                occupancy: "83%"
+                preRegistration: 0,
+                notconfirmed: 5,
+                available: 3,
+                occupancy: "88%"
             },
             {
                 name: "4-Г Классы",
                 capacity: 24,
                 enrolled: 8,
-                preRegistration: 7,
-                available: 9,
-                occupancy: "62%"
+                preRegistration: 0,
+                notconfirmed: 6,
+                available: 10,
+                occupancy: "67%"
             },
             {
                 name: "5-А Классы",
                 capacity: 24,
                 enrolled: 15,
-                preRegistration: 6,
-                available: 3,
+                preRegistration: 0,
+                notconfirmed: 3,
+                available: 6,
                 occupancy: "88%"
             },
             {
                 name: "5-Б Классы",
                 capacity: 24,
                 enrolled: 15,
-                preRegistration: 7,
+                preRegistration: 0,
+                notconfirmed: 7,
                 available: 2,
-                occupancy: "88%"
+                occupancy: "92%"
             },
             {
                 name: "5-В Классы",
                 capacity: 24,
                 enrolled: 17,
-                preRegistration: 2,
+                preRegistration: 0,
+                notconfirmed: 2,
                 available: 5,
                 occupancy: "92%"
             },
@@ -155,15 +174,17 @@ const schoolsData = {
                 name: "6-А Классы",
                 capacity: 24,
                 enrolled: 12,
-                preRegistration: 11,
-                available: 1,
+                preRegistration: 0,
+                notconfirmed: 10,
+                available: 2,
                 occupancy: "75%"
             },
             {
                 name: "6-Б Классы",
                 capacity: 24,
                 enrolled: 10,
-                preRegistration: 14,
+                preRegistration: 13,
+                notconfirmed: 1,
                 available: 0,
                 occupancy: "62%"
             }
@@ -183,9 +204,11 @@ const schoolsData = {
         logo: "assets/logos/asylkech.png",
         totalStudents: 90,
         previousYearStudents: 51,
-        renewed: 35,
+        renewed: 36,
         newStudents: 41,
-        leftStudents: 4,
+        preRegistration: 2,
+        notconfirmed: 13,
+        leftStudents: 2,
         discountRate: "20%",
         contractAverage: "4 426 $",
         growthRate: "76.5%",
@@ -196,14 +219,16 @@ const schoolsData = {
                 capacity: 18,
                 enrolled: 9,
                 preRegistration: 1,
+                notconfirmed: 0,
                 available: 8,
                 occupancy: "50%"
             },
             {
                 name: "Grade 6-A",
                 capacity: 18,
-                enrolled: 13,
-                preRegistration: 5,
+                enrolled: 14,
+                preRegistration: 0,
+                notconfirmed: 4,
                 available: 0,
                 occupancy: "100%"
             },
@@ -212,46 +237,60 @@ const schoolsData = {
                 capacity: 18,
                 enrolled: 2,
                 preRegistration: 0,
+                notconfirmed: 0,
                 available: 15,
                 occupancy: "17%"
             },
             {
                 name: "Grade 7-A",
                 capacity: 18,
-                enrolled: 15,
-                preRegistration: 3,
-                available: 0,
+                enrolled: 14,
+                preRegistration: 0,
+                available: 4,
                 occupancy: "100%"
             },
             {
                 name: "Grade 7-B",
                 capacity: 18,
-                enrolled: 12,
+                enrolled: 13,
                 preRegistration: 0,
-                available: 6,
-                occupancy: "67%"
+                notconfirmed: 0,
+                available: 5,
+                occupancy: "72%"
+            },
+            {
+                name: "Grade 7-C",
+                capacity: 18,
+                enrolled: 0,
+                preRegistration: 0,
+                notconfirmed: 0,
+                available: 0,
+                occupancy: "0%"
             },
             {
                 name: "Grade 8-A",
                 capacity: 18,
-                enrolled: 14,
-                preRegistration: 4,
+                enrolled: 13,
+                preRegistration: 0,
+                notconfirmed: 5,
                 available: 0,
                 occupancy: "100%"
             },
             {
                 name: "Grade 8-B",
                 capacity: 18,
-                enrolled: 2,
+                enrolled: 3,
                 preRegistration: 0,
-                available: 16,
-                occupancy: "11%"
+                notconfirmed: 0,
+                available: 15,
+                occupancy: "17%"
             },
             {
                 name: "Grade 9-A",
                 capacity: 18,
                 enrolled: 9,
                 preRegistration: 1,
+                notconfirmed: 0,
                 available: 8,
                 occupancy: "50%"
             }
@@ -598,6 +637,10 @@ function loadSchoolDetail() {
             <div class="metric-label">Жаңы каттоо</div>
         </div>
         <div class="metric-card">
+            <div class="metric-value">${school.notconfirmed}</div>
+            <div class="metric-label">Каттоону жаңыртпагандар</div>
+        </div>
+        <div class="metric-card">
             <div class="metric-value">${school.leftStudents}</div>
             <div class="metric-label">Кеткендер</div>
         </div>
@@ -605,10 +648,7 @@ function loadSchoolDetail() {
             <div class="metric-value">${school.discountRate}</div>
             <div class="metric-label">Арзандатуу пайызы </div>
         </div>
-        <div class="metric-card">
-            <div class="metric-value">${school.contractAverage}</div>
-            <div class="metric-label">Орточо Көрсөткүч</div>
-        </div>
+
         <div class="metric-card">
             <div class="metric-value">${school.growthRate}</div>
             <div class="metric-label">Жылдык өсүү пайызы</div>
@@ -644,6 +684,10 @@ function loadSchoolDetail() {
                 <div class="class-stat">
                     <div class="stat-value">${cls.preRegistration}</div>
                     <div class="stat-label">Алдын ала каттоо</div>
+                </div>
+                <div class="class-stat">
+                    <div class="stat-value">${cls.notconfirmed}</div>
+                    <div class="stat-label">Каттоону жаңыртпагандар</div>
                 </div>
                 <div class="class-stat">
                     <div class="stat-value">${cls.available}</div>
