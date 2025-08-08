@@ -631,10 +631,7 @@ function loadSchoolDetail() {
         classItem.innerHTML = `
             <h3 class="class-title">${cls.name}</h3>
             <div class="class-stats">
-                <div class="class-stat">
-                    <div class="stat-value">${cls.occupancy}</div>
-                    <div class="stat-label">Толуу деңгээли</div>
-                </div>
+                
                 <div class="class-stat">
                     <div class="stat-value">${cls.capacity}</div>
                     <div class="stat-label">Класстын сыйымдуулугу</div>
