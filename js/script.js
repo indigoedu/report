@@ -202,26 +202,25 @@ const schoolsData = {
         id: "SCH-002",
         name: "Indigo Asylkech Girls",
         logo: "assets/logos/asylkech.png",
-        totalStudents: 90,
-        previousYearStudents: 51,
-        renewed: 36,
-        newStudents: 41,
-        preRegistration: 2,
-        notconfirmed: 13,
-        leftStudents: 2,
+        totalStudents: 92,
+        previousYearStudents: 48,
+        renewed: 38,
+        newStudents: 44,
+        preRegistration: 1,
+        notconfirmed: 10,
+        leftStudents: 3,
         discountRate: "20%",
-        contractAverage: "4 426 $",
+        contractAverage: "4 508 $",
         growthRate: "76.5%",
-        reportPeriod: "Июль 2025",
+        reportPeriod: "Август 2025",
         classes: [
             {
                 name: "Grade 5-A",
                 capacity: 18,
-                enrolled: 9,
+                enrolled: 10,
                 preRegistration: 1,
                 notconfirmed: 0,
-                available: 8,
-                occupancy: "50%"
+                available: 7
             },
             {
                 name: "Grade 6-A",
@@ -229,8 +228,7 @@ const schoolsData = {
                 enrolled: 14,
                 preRegistration: 0,
                 notconfirmed: 4,
-                available: 0,
-                occupancy: "100%"
+                available: 0
             },
             {
                 name: "Grade 6-B",
@@ -238,25 +236,23 @@ const schoolsData = {
                 enrolled: 2,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 15,
-                occupancy: "17%"
+                available: 15
             },
             {
                 name: "Grade 7-A",
                 capacity: 18,
-                enrolled: 14,
+                enrolled: 11,
                 preRegistration: 0,
-                available: 4,
-                occupancy: "100%"
+                notconfirmed: 3,
+                available: 4
             },
             {
                 name: "Grade 7-B",
                 capacity: 18,
-                enrolled: 13,
+                enrolled: 18,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 5,
-                occupancy: "72%"
+                available: 0
             },
             {
                 name: "Grade 7-C",
@@ -264,17 +260,15 @@ const schoolsData = {
                 enrolled: 0,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 0,
-                occupancy: "0%"
+                available: 0
             },
             {
                 name: "Grade 8-A",
                 capacity: 18,
-                enrolled: 13,
+                enrolled: 14,
                 preRegistration: 0,
-                notconfirmed: 5,
-                available: 0,
-                occupancy: "100%"
+                notconfirmed: 3,
+                available: 0
             },
             {
                 name: "Grade 8-B",
@@ -282,17 +276,15 @@ const schoolsData = {
                 enrolled: 3,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 15,
-                occupancy: "17%"
+                available: 15
             },
             {
                 name: "Grade 9-A",
                 capacity: 18,
                 enrolled: 9,
-                preRegistration: 1,
+                preRegistration: 0,
                 notconfirmed: 0,
-                available: 8,
-                occupancy: "50%"
+                available: 9
             }
         ],
         notes: [
@@ -301,7 +293,7 @@ const schoolsData = {
         goals: [
             "The school's total student count must exceed 120 by August 30th."
         ],
-        lastUpdate: "29.07.2025"
+        lastUpdate: "08.08.2025"
     },
     // Indigo Sapat International School
     "SCH-003": {
@@ -395,40 +387,35 @@ const schoolsData = {
                 capacity: 16,
                 enrolled: 9,
                 preRegistration: 1,
-                available: 6,
-                occupancy: "56.25%" 
+                available: 6
             },
             {
                 name: "Grade 8-А",
                 capacity: 16,
-                enrolled: 1,
+                enrolled: 3,
                 preRegistration: 0,
-                available: 15,
-                occupancy: "6.25%"
+                available: 13
             },
             {
                 name: "Grade 9-А",
                 capacity: 16,
                 enrolled: 2,
                 preRegistration: 0,
-                available: 14,
-                occupancy: "12.5%"
+                available: 14
             },
             {
                 name: "Grade 10-А",
                 capacity: 16,
                 enrolled: 2,
                 preRegistration: 1,
-                available: 13,
-                occupancy: "12.5%"
+                available: 13
             },
             {
                 name: "Grade 11-А",
                 capacity: 16,
                 enrolled: 1,
                 preRegistration: 0,
-                available: 15,
-                occupancy: "6.25%"
+                available: 15
             }
         ],
         notes: [
