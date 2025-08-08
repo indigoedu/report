@@ -5,26 +5,25 @@ const schoolsData = {
         id: "SCH-001",
         name: "Indigo Sapat Primary",
         logo: "assets/logos/spt.png",
-        totalStudents: 367,
+        totalStudents: 365,
         previousYearStudents: 334,
-        renewed: 167,
-        newStudents: 86,
+        renewed: 172,
+        newStudents: 92,
         preRegistration: 8,
-        notconfirmed: 98,
+        notconfirmed: 94,
         leftStudents: 13,
         discountRate: "8%",
-        contractAverage: "3 852 $",
-        growthRate: "9.9%",
-        reportPeriod: "Июль 2025",
+        contractAverage: "3 861 $",
+        growthRate: "9.3%",
+        reportPeriod: "Август 2025",
         classes: [
             {
                 name: "1-А Классы",
                 capacity: 24,
-                enrolled: 12,
+                enrolled: 13,
                 preRegistration: 3,
                 notconfirmed: 0,
-                available: 9,
-                occupancy: "75%" 
+                available: 8
             },
             {
                 name: "2-А Классы",
@@ -32,17 +31,15 @@ const schoolsData = {
                 enrolled: 13,
                 preRegistration: 0,
                 notconfirmed: 5,
-                available: 6,
-                occupancy: "81%"
+                available: 6
             },
             {
                 name: "2-Б Классы",
                 capacity: 24,
-                enrolled: 12,
+                enrolled: 13,
                 preRegistration: 0,
-                notconfirmed: 10,
-                available: 2,
-                occupancy: "92%"
+                notconfirmed: 9,
+                available: 2
             },
             {
                 name: "2-В Классы",
@@ -50,8 +47,7 @@ const schoolsData = {
                 enrolled: 17,
                 preRegistration: 0,
                 notconfirmed: 6,
-                available: 1,
-                occupancy: "92%"
+                available: 1
             },
             {
                 name: "2-Г Классы",
@@ -59,8 +55,7 @@ const schoolsData = {
                 enrolled: 12,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 12,
-                occupancy: "50%"
+                available: 12
             },
             {
                 name: "2-Д Классы",
@@ -68,26 +63,23 @@ const schoolsData = {
                 enrolled: 24,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 0,
-                occupancy: "100%"
+                available: 0
             },
             {
                 name: "2-Е Классы",
                 capacity: 24,
-                enrolled: 13,
+                enrolled: 16,
                 preRegistration: 0,
                 notconfirmed: 4,
-                available: 7,
-                occupancy: "81%"
+                available: 4
             },
             {
                 name: "3-А Классы",
                 capacity: 24,
-                enrolled: 4,
+                enrolled: 5,
                 preRegistration: 0,
                 notconfirmed: 7,
-                available: 13,
-                occupancy: "33%"
+                available: 12
             },
             {
                 name: "3-Б Классы",
@@ -95,17 +87,15 @@ const schoolsData = {
                 enrolled: 16,
                 preRegistration: 0,
                 notconfirmed: 5,
-                available: 3,
-                occupancy: "88%"
+                available: 3
             },
             {
                 name: "3-В Классы",
                 capacity: 24,
-                enrolled: 8,
+                enrolled: 9,
                 preRegistration: 0,
-                notconfirmed: 7,
-                available: 9,
-                occupancy: "62%"
+                notconfirmed: 6,
+                available: 9
             },
             {
                 name: "4-А Классы",
@@ -113,17 +103,15 @@ const schoolsData = {
                 enrolled: 18,
                 preRegistration: 0,
                 notconfirmed: 4,
-                available: 2,
-                occupancy: "92%"
+                available: 2
             },
             {
                 name: "4-Б Классы",
                 capacity: 24,
-                enrolled: 11,
+                enrolled: 12,
                 preRegistration: 0,
-                notconfirmed: 8,
-                available: 5,
-                occupancy: "79%"
+                notconfirmed: 7,
+                available: 5
             },
             {
                 name: "4-В Классы",
@@ -131,8 +119,7 @@ const schoolsData = {
                 enrolled: 16,
                 preRegistration: 0,
                 notconfirmed: 5,
-                available: 3,
-                occupancy: "88%"
+                available: 3
             },
             {
                 name: "4-Г Классы",
@@ -140,8 +127,7 @@ const schoolsData = {
                 enrolled: 8,
                 preRegistration: 0,
                 notconfirmed: 6,
-                available: 10,
-                occupancy: "67%"
+                available: 10
             },
             {
                 name: "5-А Классы",
@@ -149,8 +135,7 @@ const schoolsData = {
                 enrolled: 15,
                 preRegistration: 0,
                 notconfirmed: 3,
-                available: 6,
-                occupancy: "88%"
+                available: 6
             },
             {
                 name: "5-Б Классы",
@@ -158,8 +143,7 @@ const schoolsData = {
                 enrolled: 15,
                 preRegistration: 0,
                 notconfirmed: 7,
-                available: 2,
-                occupancy: "92%"
+                available: 2
             },
             {
                 name: "5-В Классы",
@@ -167,26 +151,23 @@ const schoolsData = {
                 enrolled: 17,
                 preRegistration: 0,
                 notconfirmed: 2,
-                available: 5,
-                occupancy: "92%"
+                available: 5
             },
             {
                 name: "6-А Классы",
                 capacity: 24,
-                enrolled: 12,
+                enrolled: 13,
                 preRegistration: 0,
                 notconfirmed: 10,
-                available: 2,
-                occupancy: "75%"
+                available: 1
             },
             {
                 name: "6-Б Классы",
                 capacity: 24,
-                enrolled: 10,
-                preRegistration: 13,
-                notconfirmed: 1,
-                available: 0,
-                occupancy: "62%"
+                enrolled: 11,
+                preRegistration: 1,
+                notconfirmed: 12,
+                available: -1
             }
         ],
         notes: [
@@ -195,7 +176,7 @@ const schoolsData = {
         goals: [
             "The school's total student count must exceed 380 by August 30th."
         ],
-        lastUpdate: "30.07.2025"
+        lastUpdate: "08.08.2025"
     },
     // Indigo Asylkech Girls School
     "SCH-002": {
@@ -203,15 +184,15 @@ const schoolsData = {
         name: "Indigo Asylkech Girls",
         logo: "assets/logos/asylkech.png",
         totalStudents: 92,
-        previousYearStudents: 48,
+        previousYearStudents: 51,
         renewed: 38,
-        newStudents: 44,
+        newStudents: 43,
         preRegistration: 1,
         notconfirmed: 10,
         leftStudents: 3,
-        discountRate: "20%",
-        contractAverage: "4 508 $",
-        growthRate: "76.5%",
+        discountRate: "19.24%",
+        contractAverage: "4 442 $",
+        growthRate: "80.4%",
         reportPeriod: "Август 2025",
         classes: [
             {
@@ -236,7 +217,7 @@ const schoolsData = {
                 enrolled: 2,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 15
+                available: 16
             },
             {
                 name: "Grade 7-A",
@@ -249,15 +230,15 @@ const schoolsData = {
             {
                 name: "Grade 7-B",
                 capacity: 18,
-                enrolled: 18,
+                enrolled: 13,
                 preRegistration: 0,
                 notconfirmed: 0,
-                available: 0
+                available: 5
             },
             {
                 name: "Grade 7-C",
                 capacity: 18,
-                enrolled: 0,
+                enrolled: 18,
                 preRegistration: 0,
                 notconfirmed: 0,
                 available: 0
@@ -268,7 +249,7 @@ const schoolsData = {
                 enrolled: 14,
                 preRegistration: 0,
                 notconfirmed: 3,
-                available: 0
+                available: 1
             },
             {
                 name: "Grade 8-B",
@@ -300,63 +281,57 @@ const schoolsData = {
         id: "SCH-003",
         name: "Indigo Sapat International",
         logo: "assets/logos/int.png",
-        totalStudents: 22,
+        totalStudents: 25,
         previousYearStudents: 0,
         renewed: 0,
-        newStudents: 22,
+        newStudents: 25,
         leftStudents: 0,
-        discountRate: "14,15%",
-        contractAverage: "3 882 $",
+        discountRate: "12,51%",
+        contractAverage: "3 937 $",
         growthRate: "100%",
-        reportPeriod: "Июль 2025",
+        reportPeriod: "Август 2025",
         classes: [
             {
                 name: "Grade 7-A",
                 capacity: 24,
                 enrolled: 1,
                 preRegistration: 0,
-                available: 23,
-                occupancy: "4%" 
+                available: 23
             },
             {
                 name: "Grade 7-Б",
                 capacity: 24,
-                enrolled: 6,
+                enrolled: 7,
                 preRegistration: 0,
-                available: 18,
-                occupancy: "25%"
+                available: 17
             },
             {
                 name: "Grade 8-Б",
                 capacity: 24,
                 enrolled: 6,
                 preRegistration: 0,
-                available: 18,
-                occupancy: "25%"
+                available: 18
             },
             {
                 name: "Grade 9-Б",
                 capacity: 24,
                 enrolled: 1,
                 preRegistration: 0,
-                available: 23,
-                occupancy: "4%"
+                available: 23
             },
             {
                 name: "Grade 10-Б",
                 capacity: 24,
-                enrolled: 4,
+                enrolled: 6,
                 preRegistration: 0,
-                available: 20,
-                occupancy: "16.7%"
+                available: 20
             },
             {
                 name: "Grade 11-Б",
                 capacity: 24,
                 enrolled: 3,
                 preRegistration: 0,
-                available: 21,
-                occupancy: "12.5%"
+                available: 21
             }
         ],
         notes: [
@@ -365,29 +340,29 @@ const schoolsData = {
         goals: [
             "The school's total student count must exceed 150 by August 30th."
         ],
-        lastUpdate: "29.07.2025"
+        lastUpdate: "08.08.2025"
     },
     // Indigo Prime Academy
     "SCH-004": {
         id: "SCH-004",
         name: "Indigo Prime Academy",
         logo: "assets/logos/prime.png",
-        totalStudents: 16,
+        totalStudents: 20,
         previousYearStudents: 2,
         renewed: 0,
-        newStudents: 16,
+        newStudents: 18,
         leftStudents: 0,
-        discountRate: "2,14%",
+        discountRate: "7,22%",
         contractAverage: "4 501$",
         growthRate: "100%",
-        reportPeriod: "Июль 2025",
+        reportPeriod: "Август 2025",
         classes: [
             {
                 name: "Grade 7-A",
                 capacity: 16,
-                enrolled: 9,
+                enrolled: 10,
                 preRegistration: 1,
-                available: 6
+                available: 5 
             },
             {
                 name: "Grade 8-А",
@@ -424,7 +399,7 @@ const schoolsData = {
         goals: [
             "The school's total student count must exceed 74 by August 30th."
         ],
-        lastUpdate: "29.07.2025"
+        lastUpdate: "08.08.2025"
     }
 };
 
